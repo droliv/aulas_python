@@ -14,8 +14,8 @@ class Television:
         self.ligada = not self.ligada
         
 
-
-tv = Television()
-print(tv.ligada)
-tv.power()
-print(tv.ligada)
+if __name__ == '__main__':
+    tv = Television()
+    print(tv.ligada)
+    tv.power()
+    print(tv.ligada)
